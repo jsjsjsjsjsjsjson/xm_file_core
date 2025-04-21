@@ -7,9 +7,12 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
+                "-O3",
+                "xm_file_demo.cpp",
+                "xm_file.cpp",
+                "xm_helper.cpp",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}/xm_file_demo"
             ],
             "options": {
                 "cwd": "${fileDirname}"
